@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Promote IT Skills in Rural Areas</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <style>
+    .nav1 {
+      color: rgb(33, 57, 110);
+    }
+
+    .nav1:hover {
+      color: crimson;
+    }
+
+    .events-list {
+      display: flex;
+      flex-direction: row;
+      gap: 32px;
+      justify-content: center;
+      align-items: stretch;
+      width: 1200px;
+      margin: 0 auto;
+      flex-wrap: nowrap;
+    }
+
+    .event-card {
+      background: antiquewhite;
+      border-radius: 14px;
+      box-shadow: 0 4px 16px rgba(30, 60, 114, 0.12);
+      padding: 28px 24px;
+      text-align: left;
+      min-width: 280px;
+      max-width: 300px;
+      flex: 1 1 300px;
+      color: #fff;
+      border: 2px solid #fff;
+      margin: 0;
+    }
+
+    .event-title {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #1e3c72;
+      margin-bottom: 10px;
+    }
+
+    .event-desc {
+      font-size: 1rem;
+      color: #333;
+      margin-bottom: 18px;
+    }
+
+    .event-register-btn {
+      background: #1e3c72;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      padding: 10px 22px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.2s;
+      margin-right: 8px;
+    }
+
+    .event-register-btn:hover {
+      background: #2a5298;
+    }
+
+    .back-btn {
+      background: #fff;
+      color: #1e3c72;
+      border: 2px solid #1e3c72;
+      border-radius: 8px;
+      padding: 10px 24px;
+      font-size: 1rem;
+      cursor: pointer;
+      margin-top: 18px;
+      margin-right: 12px;
+      transition: background 0.2s, color 0.2s;
+    }
+
+    .back-btn:hover {
+      background: #1e3c72;
+      color: #fff;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+      display: flex;
+      overflow-x:hidden ;
+      align-items: flex-start;
+      justify-content: center;
+      font-family: "Segoe UI", Arial, sans-serif;
+    }
+
+    .event-container {
+      background: none;
+      border-radius: 0;
+      box-shadow: none;
+      padding: 40px 32px 0 32px;
+      max-width: 1200px;
+      width: 100%;
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    .event-title {
+      font-size: 2.2rem;
+      font-weight: bold;
+      color: #1e3c72;
+      margin-bottom: 18px;
+    }
+
+    .event-desc {
+      font-size: 1.15rem;
+      color: #333;
+      margin-bottom: 24px;
+    }
+
+    .cta-btn {
+      background: #1e3c72;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      padding: 12px 28px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+
+    .cta-btn:hover {
+      background: #2a5298;
+    }
+    @media screen and (max-width: 900px) {
+  body{
+        transform: scale(1.5);  
+  }
+}
+@media (min-width: 900px) and (max-width:1100px){
+    body{
+        transform:scale(1.5);
+    }
+} 
+
+@media (min-width: 400px) and (max-width:900px){
+    body{
+        transform:scale(1);
+    }
+} 
+@media (min-width: 300px) and (max-width:400px){
+    body{
+        transform:scale(0.75);
+    }
+} 
+  
+
+  </style>
+  <div id="navbar"
+    style=" gap: 60px; display: flex; font-size: 20px; height: 45px; padding-top: 25px; position: sticky; top:0px; width:1350px; background-color: white;z-index: 999;">
+    <div><img style="height: 70px; width: 450px; margin-top: -25px; margin-left: 30px;" src="logo.jpg"></div>
+    <a class="nav1" style="text-decoration: none;  margin-left: 130px;" href="home.html">Home</a>
+    <a class="nav1" style="text-decoration: none; " href="unstop_hackathon\about_us.html">About Us</a>
+    <a class="nav1" style="text-decoration: none;" href="/courses/course.html">Services</a>
+    <a class="nav1" style="text-decoration: none; " href="events.html">Event</a>
+    <a class="nav1"
+      style="text-decoration: none; border:1px solid red; border-radius: 20px; height: 25px; width: 80px; background-color: beige; padding-left: 15px;padding-top: 1px;"
+      href="contact.html">Contact</a>
+  </div>
+  </div>
+  <div class="event-container" style="position: relative; margin-left: -1265px;">
+    <h2 style="
+          color: #fff;
+          text-align: center;
+          margin-bottom: 28px;
+          font-size: 2.2rem;
+          font-weight: bold;
+          margin-top: 70px;
+        ">
+      Upcoming IT Skill Events in Rural Areas
+    </h2>
+    <div class="events-list">
+      <div class="event-card" style="margin-left: -3px;">
+        <div class="event-title">Digital Literacy Bootcamp</div>
+        <div class="event-desc">
+          Learn the basics of computers, internet, and safe online practices.
+          Perfect for beginners.
+        </div>
+        <button class="event-register-btn" onclick="window.location.href='Register.html'">Register</button>
+      </div>
+      <div class="event-card">
+        <div class="event-title">
+          Coding for every<br />
+          Generation.
+        </div>
+        <div class="event-desc">
+          Hands-on coding sessions in Python and web development. No prior
+          experience required!
+        </div>
+        <button class="event-register-btn" onclick="window.location.href='Register.html'">Register</button>
+      </div>
+      <div class="event-card">
+        <div class="event-title">Women in Tech Workshop</div>
+        <div class="event-desc">
+          Empowering women and girls with IT skills for career and
+          entrepreneurship opportunities.
+        </div>
+        <button class="event-register-btn" onclick="window.location.href='Register.html'">Register</button>
+      </div>
+
+    </div>
+    <div class="event-card" style="margin-left: 425px;margin-top: 50px; margin-bottom: 20px;">
+      <div class="event-title">Mobile App Basics</div>
+      <div class="event-desc">
+        Introduction to mobile app development and digital tools for rural
+        businesses.
+      </div>
+      <button class="event-register-btn" onclick="window.location.href='Register.html'">Register</button>
+    </div>
+  </div>
+
+</body>
+
+</html>

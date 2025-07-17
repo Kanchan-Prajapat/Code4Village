@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Gallery</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+        background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+        font-family: "Segoe UI", Arial, sans-serif;
+      }
+      .gallery-container {
+        max-width: 1200px;
+        margin: 40px auto;
+        padding: 24px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 18px;
+        box-shadow: 0 8px 32px rgba(30, 60, 114, 0.18);
+      }
+      h2 {
+        color: #fff;
+        text-align: center;
+        margin-bottom: 32px;
+        font-size: 2.2rem;
+        font-weight: bold;
+      }
+      .gallery-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 24px;
+      }
+      .gallery-item {
+        background: #fff;
+        border-radius: 12px;
+        box-shadow: 0 2px 12px rgba(30, 60, 114, 0.1);
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 12px;
+      }
+      .gallery-item img {
+        width: 200px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 8px;
+        margin-bottom: 10px;
+      }
+     .back-btn {
+        background: #fff;
+        color: #1e3c72;
+        border: 2px solid #1e3c72;
+        border-radius: 8px;
+        padding: 10px 24px;
+        font-size: 1rem;
+        cursor: pointer;
+        margin-top: 10px;
+        margin-right: 12px;
+        margin-bottom: 20px;
+        transition: background 0.2s, color 0.2s;
+      }
+      .back-btn:hover {
+        background: #1e3c72;
+        color: #fff;
+      }
+
+      @media screen and (max-width: 900px) {
+  body{
+        transform: scale(1.5);  
+  }
+}
+@media (min-width: 900px) and (max-width:1100px){
+    body{
+        transform:scale(1.5);
+    }
+} 
+
+@media (min-width: 400px) and (max-width:900px){
+    body{
+        transform:scale(1);
+    }
+} 
+@media (min-width: 300px) and (max-width:400px){
+    body{
+        transform:scale(0.75);
+    }
+} 
+
+    </style>
+  </head>
+  <body>
+    <div class="gallery-container">
+      <h2>Event Gallery</h2>
+      <div class="gallery-section">
+        <h3 style="color: #fff; margin-bottom: 16px">Director</h3>
+        <div class="gallery-grid">
+          <div class="gallery-item"><img src="i13.jpg" alt="Director" /></div>
+        </div>
+      </div>
+      <div class="gallery-section">
+        <h3 style="color: #fff; margin-bottom: 16px">Team Members</h3>
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img src="i1.jpg" alt="Team Member 1" />
+          </div>
+          <div class="gallery-item">
+            <img src="i2.jpg" alt="Team Member 2" />
+          </div>
+          <div class="gallery-item">
+            <img src="i3.jpg" alt="Team Member 3" />
+          </div>
+          <div class="gallery-item">
+            <img src="i4.jpg" alt="Team Member 4" />
+          </div>
+        </div>
+      </div>
+      <div class="gallery-section">
+        <h3 style="color: #fff; margin-bottom: 16px">Testimonials</h3>
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img src="i5.jpg" alt="Testimonial 1" />
+          </div>
+          <div class="gallery-item">
+            <img src="i6.jpg" alt="Testimonial 2" />
+          </div>
+          <div class="gallery-item">
+            <img src="i7.jpg" alt="Testimonial 3" />
+          </div>
+          <div class="gallery-item">
+            <img src="i8.jpg" alt="Testimonial 4" />
+          </div>
+        </div>
+      </div>
+      <div class="gallery-section">
+        <h3 style="color: #fff; margin-bottom: 16px">Darsi</h3>
+        <div class="gallery-grid">
+          <div class="gallery-item"><img src="i9.jpg" alt="Workshop 1" /></div>
+          <div class="gallery-item"><img src="i10.jpg" alt="Workshop 2" /></div>
+          <div class="gallery-item"><img src="i11.jpg" alt="Workshop 3" /></div>
+          <div class="gallery-item"><img src="i12.jpg" alt="Workshop 4" /></div>
+        </div>
+      </div>
+      <div class="gallery-section">
+        <h3 style="color: #fff; margin-bottom: 16px">Sam</h3>
+        <div class="gallery-grid">
+          <div class="gallery-item"><img src="i14.jpg" alt="Event 1" /></div>
+          <div class="gallery-item"><img src="i15.jpg" alt="Event 2" /></div>
+          <div class="gallery-item"><img src="i16.jpg" alt="Event 3" /></div>
+        </div>
+      </div>
+      <div class="gallery-section">
+        <h3 style="color: #fff; margin-bottom: 16px">Others</h3>
+        <div class="gallery-grid">
+          <div class="gallery-item"><img src="i17.jpg" alt="Award 1" /></div>
+          <div class="gallery-item"><img src="i18.jpg" alt="Award 2" /></div>
+          <div class="gallery-item"><img src="i19.jpg" alt="Award 3" /></div>
+          <div class="gallery-item"><img src="i20.jpg" alt="Award 4" /></div>
+        </div>
+      </div>
+    </div>
+ <div style="text-align: center; margin-top: 32px">
+        <button class="back-btn" onclick="window.location.href='home.html'">
+          Back to Home
+        </button>
+      </div>
+  </body>
+</html>
