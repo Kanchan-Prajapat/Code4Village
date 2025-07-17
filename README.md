@@ -1,1 +1,3 @@
 # Code4Village
+Problem Statement:
+In today’s fast-paced digital world, organizations that aim to empower youth with IT skills must have a strong and effective online presence. KK Computers, a grassroots IT training and development institute, currently lacks a professionally designed, responsive, and interactive website that can:Showcase its wide range of services, including IT training, certifications, final year projects, and digital awareness programs.Promote events like Hack The Web, workshops, and tech bootcamps.Attract students, trainers, partners, and donors through a clean and informative digital platform.Serve as a one-stop information hub with contact forms, WhatsApp integration, and real-time announcements
